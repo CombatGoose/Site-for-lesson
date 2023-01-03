@@ -1,0 +1,102 @@
+body {
+    background-color: #DEEBFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    margin-top: 100px;
+    width: 1440px;
+    height: 900px;
+    background-color: #EAF1FE;
+    box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.35), inset 5px 5px 10px rgba(255, 255, 255, 0.35);
+    border-radius: 40px;
+    display: flex;
+}
+.profile {
+    width: 254px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+}
+.profileWrapper {
+    width: 184px;
+    margin-top: 107px;
+}
+.profileWrapper > img {
+    width: 64px;
+    height: 64px;
+    border: 12px solid white;
+    border-radius: 15px;
+}
+.imgWrapper {
+    display: flex;
+    justify-content: center;
+}
+.profileName {
+    text-align: center;
+    margin-top: 13px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Spartan';
+}
+.icon {
+    width: 33px;
+    height: 34px;
+    border-radius: 15px;
+    padding-left: 13px;
+    padding-top: 10px;
+}
+.mainIcon {
+    background-color: #DF4545;
+}
+.navBlock {
+    width: 184px;
+    height: 44px;
+    border-radius: 15px;
+    display: flex;
+    display: flex;
+    align-items: center;
+    margin-top: 57px;
+}
+.mainNavBlock {
+    background-color: #FF5454;
+}
+.navBlock > p {
+    margin-left: 45px;
+    color: #909090;
+}
+.mainNavBlock > p {
+    color: white;
+    margin-left: 45px;
+}
+main {
+    margin-top: 100px;
+    margin-left: 845px;
+    position: absolute;
+}
+.upperMain {
+    width: 100%;
+    display: flex;
+}
+.upperMain > p {
+       font-weight: 800;
+     font-size: 48px;
+    line-height: 65px;
+}
+.upMainSVG {
+    margin-left: 500px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+}
+.market {
+    background-color: #666666;
+    width: 40px;
+    height: 35px;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-top: -20px;
+}
